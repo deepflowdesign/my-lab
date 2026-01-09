@@ -1,30 +1,6 @@
 # iPhoneでClaude Codeを使うための自宅サーバー構築ガイド
 
-## 完成した構成
-
-```
-[home-server (HiMeLE Quieter 4C)]
-├── Ubuntu Server 24.04.1 LTS
-├── Tailscale（VPN）
-├── Syncthing（ファイル同期）
-├── Node.js 24.12.0
-├── Claude Code 2.0.76
-└── SSH Server
-
-        ↕ Syncthing同期 / Tailscale SSH
-
-[MBP M1 2020 1TB]
-├── Tailscale
-├── Syncthing
-└── 開発作業メイン機
-
-        ↕ Tailscale SSH
-
-[iPhone]
-├── Tailscale
-├── Blink Shell（SSH）
-└── 移動中の軽作業
-```
+構成の全体像は [README](README.md) を参照。
 
 ## サーバースペック
 
